@@ -129,7 +129,7 @@ Text Domain: newsup
   background: url(images/head-back.jpg);
 }
 .mg-nav-widget-area-back .inner {
-  background: rgba(32, 47, 91, 0.4);
+  /* background: rgba(32, 47, 91, 0.4); */
   width: 100%;
 }
 .mg-headwidget .navbar-brand {

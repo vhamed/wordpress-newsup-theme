@@ -30,7 +30,7 @@
             if ( has_header_image() ) {
               $background_image = get_header_image();
             } ?>
-            <div class="mg-nav-widget-area-back" style='background: url("<?php echo esc_url( $background_image ); ?>" ) repeat scroll center 0 #143745;'>
+            <div class="mg-nav-widget-area-back" style='background: linear-gradient(45deg, #fff, #101f50)'>
             <?php $remove_header_image_overlay = get_theme_mods('remove_header_image_overlay',true);
             if($remove_header_image_overlay == true){ ?>
             <div class="overlay">
