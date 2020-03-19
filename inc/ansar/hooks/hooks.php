@@ -81,7 +81,7 @@ if (!function_exists('newsup_banner_tabbed_posts')):
     $category = newsup_get_option('select_trending_tab_news_category');
     $tab_id = 'tan-main-banner-latest-trending-popular'
 ?>
-            <div class="col-md-4 top-left-area">
+            <div class="col-md-4 top-right-area">
                     <div id="exTab2" >
                     <ul class="nav nav-tabs">
                         <li class="active">
