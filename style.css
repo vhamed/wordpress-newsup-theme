@@ -2860,3 +2860,7 @@ footer .mg-widget .woocommerce ul.product_list_widget li img {
 .navigation.pagination > li:first-child > span {
   border-radius: 30px;
 }
+#menu-categories,
+#menu-categories > li {
+  float: right;
+}
