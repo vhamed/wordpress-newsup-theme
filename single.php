@@ -41,14 +41,9 @@
                   <?php the_title(); ?></a>
                 </h1>
 
-                <div class="media mg-info-author-block"> <a class="mg-author-pic" href="#"> <?php echo get_avatar( get_the_author_meta( 'ID') , 150); ?> </a>
+                <div class="media mg-info-author-block"> 
                   <div class="media-body">
-                    <h4 class="media-heading"><span><?php esc_html_e('By','newsup'); ?></span><a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><?php the_author(); ?></a></h4>
                     <span class="mg-blog-date"><?php echo get_the_date('M'); ?> <?php echo get_the_date('j,'); ?> <?php echo get_the_date('Y'); ?></span>
-                    <?php $tag_list = get_the_tag_list();
-                    if($tag_list){ ?>
-                    <span class="newsup-tags"><a href="<?php the_permalink(); ?>"><?php the_tags('', ', ', ''); ?></a></span>
-                  <?php } ?>
                   </div>
                 </div>
               </div>

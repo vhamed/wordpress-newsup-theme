@@ -921,6 +921,7 @@ button.mfp-close:focus {
   padding: 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   background: #fff;
+  direction: rtl;
 }
 .mg-blog-post-box .small {
   font-size: 16px;
@@ -953,7 +954,8 @@ button.mfp-close:focus {
 .mg-blog-thumb img {
   position: relative;
   max-width: 100%;
-  float: left;
+  float: right;
+  margin-right: 40px;
   height: auto;
   border-radius: 0;
 }
@@ -1662,6 +1664,7 @@ button.mfp-close:focus {
 .mg-breadcrumb-title {
   text-align: left;
   padding: 0;
+  direction: rtl;
 }
 .mg-breadcrumb-title h1 {
   font-size: 22px;
@@ -1669,6 +1672,7 @@ button.mfp-close:focus {
   margin: 0;
   line-height: 27px;
   padding-bottom: 0px;
+  text-align: start;
 }
 .mg-page-breadcrumb {
   list-style: none outside none;
