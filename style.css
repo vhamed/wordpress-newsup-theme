@@ -1290,7 +1290,8 @@ button.mfp-close:hover, button.mfp-close:focus {
   border-width: 0 0 2px 0;
   border-style: solid;
   margin-bottom: 20px;
-  position: relative;
+	position: relative;
+	direction: rtl;
 }
 .mg-sec-title h4{
   margin: 0px;
@@ -1304,7 +1305,7 @@ button.mfp-close:hover, button.mfp-close:focus {
     position: relative;
     font-size: 18px;
 }
-.mg-sec-title  h4::before {
+/* .mg-sec-title  h4::before {
     width: 0;
     position: absolute;
     right: -30px;
@@ -1313,7 +1314,7 @@ button.mfp-close:hover, button.mfp-close:focus {
     border-style: solid;
     border-width: 40px 0 0px 30px;
     content: "";
-}
+} */
 
 /*blocks Posts*/
 .mg-posts-sec{
@@ -1412,7 +1413,8 @@ button.mfp-close:hover, button.mfp-close:focus {
 }
 .mg-posts-modul-6 .list_content {
   padding: 20px 0;
-  overflow: hidden;
+	overflow: hidden;
+	direction: rtl;
 }
 .mg-posts-modul-6 .mg-sec-top-post{
   display: inline-block;
@@ -1618,6 +1620,7 @@ button.mfp-close:hover, button.mfp-close:focus {
 	margin: -10px -20px 20px -20px;
 	position: relative;
 	padding: 0;
+	direction: rtl;
 }
 .mg-sidebar .mg-widget h2 {
 	font-size: 18px;
@@ -1635,7 +1638,7 @@ button.mfp-close:hover, button.mfp-close:focus {
     height: 40px;
     display: inline-block;
 }
-.mg-sidebar .mg-widget h6::before {
+/* .mg-sidebar .mg-widget h6::before {
     width: 0;
     position: absolute;
     right: -30px;
@@ -1644,11 +1647,13 @@ button.mfp-close:hover, button.mfp-close:focus {
     border-style: solid;
     border-width: 40px 0 0px 30px;
     content: "";
-}
+} */
 .mg-sidebar .mg-widget ul li {
 	padding: 10px 0;
 	position: relative;
 	transition: all 0.4s ease-in-out 0s;
+	direction: rtl;
+	text-align: start;
 }
 .mg-sidebar .mg-widget ul li a:hover {
 	padding-left: 10px;

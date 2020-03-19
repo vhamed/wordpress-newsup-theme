@@ -81,7 +81,7 @@ if (!function_exists('newsup_banner_tabbed_posts')):
             $category = newsup_get_option('select_trending_tab_news_category');
             $tab_id = 'tan-main-banner-latest-trending-popular'
             ?>
-            <div class="col-md-4 top-right-area">
+            <div class="col-md-4 top-left-area">
                     <div id="exTab2" >
                     <ul class="nav nav-tabs">
                         <li class="active">
@@ -299,6 +299,9 @@ if (!function_exists('newsup_front_page_banner_section')) :
             <div class="overlay">
                 <div class="container-fluid">
                     <div class="">
+																								<div>
+																									<?php	do_action('newsup_action_banner_tabbed_posts');?>
+																								</div>
                         <div class="col-md-8">
                             <div class="row">
                                 <div id="homemain"class="homemain owl-carousel mr-bot60 pd-r-10"> 
@@ -306,7 +309,6 @@ if (!function_exists('newsup_front_page_banner_section')) :
                                 </div>
                             </div>
                         </div> 
-                        <?php do_action('newsup_action_banner_tabbed_posts');?>
                     </div>
                 </div>
             </div>
