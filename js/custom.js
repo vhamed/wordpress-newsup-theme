@@ -115,7 +115,7 @@ taupr();
 function marquee() {
   jQuery('.marquee').marquee({
   speed: 50,
-  direction: 'left',
+  direction: 'right',
   delayBeforeStart: 0,
   duplicated: true,
   pauseOnHover: true,
