@@ -785,6 +785,7 @@ button.mfp-close:focus {
   margin: 0;
   font-size: 14px;
   border-bottom: 1px solid #eee;
+  direction: rtl;
 }
 .mg-tpt-txnlst strong {
   margin-right: 10px;

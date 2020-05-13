@@ -28,7 +28,7 @@ function newsup_get_default_theme_options() {
 
 
     // Frontpage Section.
-    $defaults['show_popular_tags_title'] = __('Top Tags', 'newsup');
+		$defaults['show_popular_tags_title'] = __(' ', 'newsup');
     $defaults['number_of_popular_tags'] = 7;
     $defaults['select_popular_tags_mode'] = 'post_tag';
 
