@@ -8,6 +8,7 @@
                             <!-- mg-posts-sec mg-posts-modul-6 -->
                             <div class="mg-posts-sec mg-posts-modul-6">
                                 <!-- mg-posts-sec-inner -->
+                                <div class="mg-wid-section-title"><h6>الأخبـــــار</h6></div>
                                 <div class="mg-posts-sec-inner">
                                     <?php while(have_posts()){ the_post(); ?>
                                     <article class="mg-posts-sec-post">

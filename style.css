@@ -1335,8 +1335,9 @@ button.mfp-close:focus {
     to bottom,
     rgba(0, 0, 0, 0) 100%,
     rgba(0, 0, 0, 0.4) 100%,
-    rgba(0, 0, 0, 0.7) 100%
-  );
+    rgba(0, 0, 0, 0.7) 100%,
+	);
+	direction: rtl;
 }
 .mg-blog-inner h1 {
   margin: 0;
@@ -1745,6 +1746,28 @@ button.mfp-close:focus {
   position: relative;
   padding: 0;
   direction: rtl;
+}
+.mg-wid-section-title {
+	width: 100%;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  position: relative;
+  padding: 0;
+  direction: rtl;
+}
+.mg-wid-section-title h6 {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 8px 0 15px;
+  position: relative;
+  text-transform: uppercase;
+  width: auto;
+  height: 40px;
+  display: inline-block;
 }
 .mg-sidebar .mg-widget h2 {
   font-size: 18px;
@@ -2367,6 +2390,7 @@ address i {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 .woocommerce ul.products li.product:hover {
+	/* nothing here */
 }
 .woocommerce ul.products li.product a img:hover {
   opacity: 0.6;

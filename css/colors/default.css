@@ -423,6 +423,13 @@ blockquote::before {
 .mg-wid-title {
 	border-color: #1151d3;
 }
+.mg-wid-section-title {
+	border-color: #1151d3;
+}
+.mg-wid-section-title h6 {
+	background: #1151d3;
+	color: #fff;
+}
 .mg-sidebar .mg-widget h6 {
 	background: #1151d3;
 	color: #fff;
