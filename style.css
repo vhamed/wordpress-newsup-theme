@@ -9,10 +9,10 @@ Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Text Domain: newsup
-*/
+ */
 /* --------------------------------------
 =========================================
-	Header
+Header
 =========================================
 -----------------------------------------*/
 .navbar-header .site-title {
@@ -29,7 +29,7 @@ Text Domain: newsup
   font-size: 24px;
 }
 /*---------------------------------------
-	1.1.Top Bar           
+1.1.Top Bar           
 -----------------------------------------*/
 .mg-head-detail {
   padding: 10px 0 0 0;
@@ -80,7 +80,7 @@ Text Domain: newsup
   padding-right: 10px;
 }
 /*---------------------------------------
-	1.2.Header Widget      
+1.2.Header Widget      
 -----------------------------------------*/
 .header-widget .mg-head-detail .info-left li a {
   line-height: 38px;
@@ -123,10 +123,11 @@ Text Domain: newsup
   margin-left: 5px;
 }
 /*---------------------------------------
-	1.2.Theme Menu   
+1.2.Theme Menu   
 -----------------------------------------*/
 .mg-nav-widget-area-back {
-  background: url(images/head-back.jpg);
+  /* background: url(images/head-back.jpg); */
+  background: #202f5a;
 }
 .mg-nav-widget-area-back .inner {
   /* background: rgba(32, 47, 91, 0.4); */
@@ -292,7 +293,7 @@ Text Domain: newsup
   height: 40px;
 }
 /*---------------------------------------
-	1.3.Theme Menu Center 
+1.3.Theme Menu Center 
 -----------------------------------------*/
 .navbar-brand span.site-description {
   font-size: 12px;
@@ -301,12 +302,12 @@ Text Domain: newsup
 }
 /* --------------------------------------
 =========================================
-	2.General
+2.General
 =========================================
 -----------------------------------------*/
 
 /*---------------------------------------
-	2.1.Body & Global    
+2.1.Body & Global    
 -----------------------------------------*/
 body {
   padding: 0;
@@ -382,7 +383,7 @@ button {
   border-style: solid;
   transition: all 0.4s ease-in-out 0s;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 input:not([type]):hover,
 input[type="email"]:hover,
@@ -475,7 +476,7 @@ mark,
   color: #333;
   border-color: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .owl-carousel .owl-controls .owl-buttons div i {
 }
@@ -541,7 +542,7 @@ mark,
   border-width: 2px;
   border-style: solid;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
   background: #fff;
   border-color: #fff;
 }
@@ -580,7 +581,7 @@ mark,
   margin-bottom: 60px;
 }
 /*---------------------------------------
-	2.2.Typography        
+2.2.Typography        
 -----------------------------------------*/
 h1,
 .h1 {
@@ -705,12 +706,12 @@ td {
 }
 
 /*.mg-content ul, .single ul,  .mg-content ol, .single ol {
-    margin: 0 0px 25.6px 18px;
-    padding: 0;
+margin: 0 0px 25.6px 18px;
+padding: 0;
 }
 
 /*---------------------------------------
-	2.4.Button Styles           
+2.4.Button Styles           
 -----------------------------------------*/
 .btn {
   padding: 10px 35px;
@@ -777,7 +778,7 @@ button.mfp-close:focus {
 }
 /*---------------------------------------
 =========================================
-	content-Home-Sections
+content-Home-Sections
 =========================================
 -----------------------------------------*/
 .mg-tpt-tag-area {
@@ -884,10 +885,10 @@ button.mfp-close:focus {
 }
 .mg-blog-post .bottom {
   background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0,
-    rgba(0, 0, 0, 0.4) 50%,
-    rgba(0, 0, 0, 0.7) 100%
+  to bottom,
+  rgba(0, 0, 0, 0) 0,
+  rgba(0, 0, 0, 0.4) 50%,
+  rgba(0, 0, 0, 0.7) 100%
   );
   padding: 40px 5.050505050505% 20px;
   position: absolute;
@@ -915,7 +916,7 @@ button.mfp-close:focus {
   width: 80%;
 }
 /*---------------------------------------
-	blog   
+blog   
 -----------------------------------------*/
 .mg-blog-post-box {
   margin-bottom: 40px;
@@ -1119,7 +1120,7 @@ button.mfp-close:focus {
   float: left;
   border-radius: 50%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
   width: 80px;
   height: 80px;
 }
@@ -1143,7 +1144,7 @@ button.mfp-close:focus {
   transition: all 0.3s ease 0s;
   line-height: 20px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -1201,7 +1202,7 @@ button.mfp-close:focus {
   width: 64px;
   border-radius: 50%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .mg-comments .comment-list li {
   margin-bottom: 20px;
@@ -1220,7 +1221,7 @@ button.mfp-close:focus {
   border: 0;
 }
 /*---------------------------------------
-	Homepage Sections  
+Homepage Sections  
 -----------------------------------------*/
 .mg-latest-news-sec {
   padding: 0;
@@ -1236,7 +1237,7 @@ button.mfp-close:focus {
   position: relative;
   overflow: hidden;
   margin: 0;
-  background-color: #fff;
+  background-color: darkred;
 }
 .mg-latest-news .bn_title h2 {
   display: inline-block;
@@ -1244,7 +1245,7 @@ button.mfp-close:focus {
   padding: 0 20px;
   line-height: 39px;
   font-size: 20px;
-  color: #fff;
+  color: darkred;
   height: 40px;
   box-sizing: border-box;
 }
@@ -1332,13 +1333,8 @@ button.mfp-close:focus {
   position: absolute;
   padding: 10px 20px;
   bottom: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 100%,
-    rgba(0, 0, 0, 0.4) 100%,
-    rgba(0, 0, 0, 0.7) 100%,
-	);
-	direction: rtl;
+  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.7) 100%);
+  direction: rtl;
 }
 .mg-blog-inner h1 {
   margin: 0;
@@ -1420,14 +1416,14 @@ button.mfp-close:focus {
   font-size: 18px;
 }
 /* .mg-sec-title  h4::before {
-    width: 0;
-    position: absolute;
-    right: -30px;
-    top: 0px;
-    height: 0;
-    border-style: solid;
-    border-width: 40px 0 0px 30px;
-    content: "";
+width: 0;
+position: absolute;
+right: -30px;
+top: 0px;
+height: 0;
+border-style: solid;
+border-width: 40px 0 0px 30px;
+content: "";
 } */
 
 /*blocks Posts*/
@@ -1594,10 +1590,10 @@ button.mfp-close:focus {
   bottom: 0;
   padding: 30px;
   background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0,
-    rgba(0, 0, 0, 0.4) 50%,
-    rgba(0, 0, 0, 0.7) 100%
+  to bottom,
+  rgba(0, 0, 0, 0) 0,
+  rgba(0, 0, 0, 0.4) 50%,
+  rgba(0, 0, 0, 0.7) 100%
   );
 }
 .mg-post-box .title {
@@ -1645,7 +1641,7 @@ button.mfp-close:focus {
 }
 /* --------------------------------------
 =========================================
-	4.mg-breadcrumb-section
+4.mg-breadcrumb-section
 =========================================
 -----------------------------------------*/
 .mg-breadcrumb-section {
@@ -1694,7 +1690,7 @@ button.mfp-close:focus {
 }
 /* --------------------------------------
 =========================================
-	5.mg-sidebar
+5.mg-sidebar
 =========================================
 -----------------------------------------*/
 .mg-sidebar a {
@@ -1749,9 +1745,9 @@ button.mfp-close:focus {
   direction: rtl;
 }
 .mg-wid-section-title {
-	width: 100%;
-	font-weight: bold;
-	margin: 0 0 20px 0;
+  width: 100%;
+  font-weight: bold;
+  margin: 0 0 20px 0;
   border-width: 0 0 2px 0;
   border-style: solid;
   position: relative;
@@ -1787,14 +1783,14 @@ button.mfp-close:focus {
   display: inline-block;
 }
 /* .mg-sidebar .mg-widget h6::before {
-    width: 0;
-    position: absolute;
-    right: -30px;
-    top: 0px;
-    height: 0;
-    border-style: solid;
-    border-width: 40px 0 0px 30px;
-    content: "";
+width: 0;
+position: absolute;
+right: -30px;
+top: 0px;
+height: 0;
+border-style: solid;
+border-width: 40px 0 0px 30px;
+content: "";
 } */
 .mg-sidebar .mg-widget ul li {
   padding: 10px 0;
@@ -1918,7 +1914,7 @@ button.mfp-close:focus {
 }
 /* --------------------------------------
 =========================================
-	6.mg-error page
+6.mg-error page
 =========================================
 -----------------------------------------*/
 .mg-error-404 h1 {
@@ -1937,7 +1933,7 @@ button.mfp-close:focus {
 }
 /* --------------------------------------
 =========================================
-	7.mg-footer
+7.mg-footer
 =========================================
 -----------------------------------------*/
 footer {
@@ -2148,7 +2144,7 @@ footer .mg-footer-copyright a {
 }
 /* --------------------------------------
 =========================================
-	mg-social
+mg-social
 =========================================
 -----------------------------------------*/
 .mg-social {
@@ -2316,7 +2312,7 @@ address i {
 
 /* --------------------------------------
 =========================================
-	8.mg-scroll
+8.mg-scroll
 =========================================
 -----------------------------------------*/
 .ta_upscr {
@@ -2334,7 +2330,7 @@ address i {
   border-width: 2px;
   border-style: solid;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .ta_upscr:hover {
   opacity: 1;
@@ -2391,7 +2387,7 @@ address i {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 .woocommerce ul.products li.product:hover {
-	/* nothing here */
+  /* nothing here */
 }
 .woocommerce ul.products li.product a img:hover {
   opacity: 0.6;
@@ -2635,7 +2631,7 @@ footer .mg-widget .woocommerce ul.product_list_widget li img {
 }
 /* --------------------------------------
 =========================================
-	9.mg-Responsive part
+9.mg-Responsive part
 =========================================
 -----------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
