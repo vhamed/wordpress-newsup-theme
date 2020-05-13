@@ -56,7 +56,7 @@ get_header(); ?>
                 </div>
             </div>
             <?php } 
-            $newsup_you_missed_loop = new WP_Query(array( 'post_type' => 'post', 'posts_per_page' => 4, 'order' => 'DESC', 'category_name' => 'business', 'ignore_sticky_posts' => true));
+            $newsup_you_missed_loop = new WP_Query(array( 'post_type' => 'post', 'posts_per_page' => 6, 'order' => 'DESC', 'category_name' => 'business', 'ignore_sticky_posts' => true));
             if ( $newsup_you_missed_loop->have_posts() ) :
             while ( $newsup_you_missed_loop->have_posts() ) : $newsup_you_missed_loop->the_post(); ?>
                 <!--col-md-3-->
