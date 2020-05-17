@@ -2889,3 +2889,10 @@ footer .mg-widget .woocommerce ul.product_list_widget li img {
 #menu-categories > li {
   float: right;
 }
+
+@media (max-width: 30em) {
+  .my-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }  
+}
