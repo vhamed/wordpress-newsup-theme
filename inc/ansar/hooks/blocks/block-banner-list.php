@@ -22,7 +22,6 @@ if ($newsup_all_posts_main->have_posts()) :
                 </div>
 
                 <article class="bottom">
-                        <span class="post-form"><i class="fa fa-camera"></i></span>
                         <div class="mg-blog-category"> <?php newsup_post_categories(); ?> </div>
                         <h1 class="title"> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
                         <?php newsup_post_meta(); ?>

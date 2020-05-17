@@ -38,7 +38,6 @@ the_post_thumbnail( '', array( 'class'=>'img-responsive' ) );
 echo '</a>';
 
 ?>
-                                                    <span class="post-form"><i class="fa fa-camera"></i></span>
                                                 </div>
 
                                             </div>
