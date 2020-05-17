@@ -326,7 +326,7 @@ body {
   padding-left: 50px;
 }
 #content.home {
-  padding: 0px 35px 30px 35px;
+  padding: 30px 35px 30px 35px;
 }
 a:hover {
   text-decoration: none;
@@ -827,7 +827,7 @@ content-Home-Sections
   background: rgba(18, 16, 38, 0.6);
 }
 .mg-fea-area .overlay {
-  padding: 30px 0 0 0;
+  padding: 0;
   margin: 0;
 }
 .mg-blog-post.lg {
