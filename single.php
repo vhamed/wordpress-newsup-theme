@@ -11,7 +11,7 @@
     <!--container-->
     <div class="container-fluid">
       <!--row-->
-      <div class="row">
+      <div class="row" id="single-post">
         <!--col-md-->
         <?php 
                     $newsup_single_page_layout = get_theme_mod('newsup_single_page_layout','single-align-content-right');

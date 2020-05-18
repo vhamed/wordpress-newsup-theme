@@ -2895,3 +2895,10 @@ footer .mg-widget .woocommerce ul.product_list_widget li img {
     flex-direction: column-reverse;
   }  
 }
+
+@media (max-width: 30em) {
+  #single-post {
+    display: flex;
+    flex-direction: column-reverse;
+  }  
+}
